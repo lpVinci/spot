@@ -1,0 +1,67 @@
+.menu {
+  background-color: black;
+  color: rgb(170, 170, 170);
+
+  height: auto;
+  width: 15em;
+
+  ul {
+    list-style-type: none;
+
+    li {
+      display: flex;
+      align-items: center;
+
+      .add {
+        filter: invert(0);
+      }
+
+      .imgAdd {
+        width: 35px;
+        height: 35px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-color: rgb(199, 199, 199);
+      }
+
+      .imgFav {
+        width: 35px;
+        height: 35px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(
+          to right bottom,
+          rgb(68, 22, 121),
+          rgb(66, 64, 177),
+          white
+        );
+      }
+    }
+  }
+
+  .ulPlay {
+    display: flex;
+    flex-direction: column;
+
+    .liPlay {
+      padding-bottom: 0.5rem;
+    }
+  }
+
+  img {
+    filter: invert(1);
+    width: 30px;
+    height: 30px;
+  }
+
+  p {
+    padding-left: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+}

@@ -1,0 +1,11 @@
+.componentsPage {
+  display: flex;
+
+  .menuComponent {
+    flex: 1;
+  }
+
+  .pageComponent {
+    flex: 3;
+  }
+}

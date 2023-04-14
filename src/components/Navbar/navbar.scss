@@ -1,0 +1,119 @@
+.navbar {
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+
+  position: fixed;
+  bottom: 0;
+
+  width: 100%;
+  height: 90px;
+
+  color: rgb(192, 192, 192);
+  background: linear-gradient(to top, rgb(32, 32, 32), rgba(32, 32, 32, 0.637));
+
+  .IconsInvert {
+    filter: invert(1);
+  }
+
+  .musicInfo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+
+    padding-left: 1rem;
+
+    img {
+      width: 60px;
+      height: 60px;
+
+      object-fit: cover;
+    }
+
+    .Fav {
+      filter: invert(1);
+
+      width: 20px;
+      height: 20px;
+
+      padding-left: 1rem;
+    }
+
+    .music {
+      padding-left: 0.3rem;
+
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      p {
+        margin: 0;
+      }
+
+      .musicName {
+        font-weight: 600;
+      }
+    }
+  }
+
+  .player {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 40rem;
+
+    .buttonsPlayer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 25px;
+        height: 25px;
+
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0.5rem;
+      }
+    }
+
+    .timer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .timeline {
+        width: 25rem;
+        height: 1px;
+        border: solid 2px grey;
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+
+      p {
+        font-weight: 600;
+      }
+    }
+  }
+
+  .options {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 20px;
+      height: 20px;
+
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+
+    .volume {
+      width: 5rem;
+      height: 1px;
+      border: solid 2px grey;
+      background-color: grey;
+    }
+  }
+}
